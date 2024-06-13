@@ -1,9 +1,9 @@
-name: Create High Release
+name: Create High 7.2 Release
 
 on:
   push:
     branches:
-      - high
+      - 7.2-Pre-1-High
 
 jobs:
   build:
@@ -32,9 +32,9 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: "v${{ github.run_number }}"
-          name: "Dokucraft TSC BTA High Update ${{ env.RELEASE_VERSION }}"
+          name: "Dokucraft TSC BTA 7.2 Pre1 High"
           body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: Dokucraft-TSC-High_BTA-7.1.zip
+          artifacts: Dokucraft-TSC-High_BTA-7.2-Pre1.zip
