@@ -1,282 +1,227 @@
 {
 	"animations": [
 		{
-			"type": "terrain",
-			"tile": 397,
-			"name": "custom_water_still"
-		},
-		{	"type": "terrain",
-			"tile": 398,
-			"name": "custom_water_flowing"
+			"id": "minecraft:block/water_still",
+			"name": "custom_water_still",
 		},
 		{
-			"type": "terrain",
-			"tile": 461,
-			"name": "custom_lava_still"
+			"id": "minecraft:block/water_flowing",
+			"name": "custom_water_flowing",
+		},
+		{
+			"id": "minecraft:block/lava_still",
+			"name": "custom_lava_still",
 		},
 		{	
-			"type": "terrain",
-			"tile": 463,
-			"name": "custom_lava_flowing"
+			"id": "minecraft:block/lava_flowing",
+			"name": "custom_lava_flowing",
 		},
 		{	
-			"type": "terrain",
-			"tile": 47,
-			"name": "custom_fire_layer_0"
+			"id": "minecraft:block/fire",
+			"name": "custom_fire_layer_0",
 		},
 		{	
-			"type": "terrain",
-			"tile": 79,
-			"name": "custom_fire_layer_1"
+			"id": "minecraft:block/fire",
+			"name": "custom_fire_layer_1",
 		},
 		{	
-			"type": "item",
-			"tile": 39,
-			"name": "iron_ingot"
+			"id": "minecraft:item/ingot_iron",
+			"name": "iron_ingot",
 		},
 		{	
-			"type": "item",
-			"tile": 71,
-			"name": "gold_ingot"
+			"id": "minecraft:item/ingot_gold",
+			"name": "gold_ingot",
 		},
 		{	
-			"type": "item",
-			"tile": 231,
-			"name": "steel_ingot"
+			"id": "minecraft:item/ingot_steel",
+			"name": "steel_ingot",
 		},
 		{	
-			"type": "item",
-			"tile": 139,
-			"name": "water_bucket"
+			"id": "minecraft:item/bucket_water",
+			"name": "water_bucket",
 		},
 		{	
-			"type": "item",
-			"tile": 140,
-			"name": "lava_bucket"
+			"id": "minecraft:item/bucket_lava",
+			"name": "lava_bucket",
 		},
 		{	
-			"type": "item",
-			"tile": 141,
-			"name": "milk_bucket"
+			"id": "minecraft:item/bucket_milk",
+			"name": "milk_bucket",
 		},
 		{	
-			"type": "item",
-			"tile": 103,
-			"name": "diamond"
+			"id": "minecraft:item/diamond",
+			"name": "diamond",
 		},
 		{	
-			"type": "item",
-			"tile": 5,
-			"name": "flint_and_steel"
+			"id": "minecraft:item/tool_firestriker",
+			"name": "flint_and_steel",
 		},
 		{	
-			"type": "item",
-			"tile": 322,
-			"name": "steel_firestriker"
+			"id": "minecraft:item/tool_firestriker_steel",
+			"name": "steel_firestriker",
 		},
 		{	
-			"type": "terrain",
-			"tile": 160,
-			"name": "torch"
+			"id": "minecraft:block/torch_coal",
+			"name": "torch",
 		},
 		{	
-			"type": "terrain",
-			"tile": 232,
-			"name": "pumpkin_face_on"
+			"id": "minecraft:block/pumpkin_carved_active",
+			"name": "pumpkin_face_on",
 		},
 		{	
-			"type": "terrain",
-			"tile": 109,
-			"name": "furnace_front_on"
+			"id": "minecraft:block/furnace_stone_active_front",
+			"name": "furnace_front_on",
 		},
 		{	
-			"type": "terrain",
-			"tile": 270,
-			"name": "blast_furnace_front_on"
+			"id": "minecraft:block/furnace_blast_active_front",
+			"name": "blast_furnace_front_on",
 		},
 		{	
-			"type": "item",
-			"tile": 137,
-			"name": "glowstone_dust"
+			"id": "minecraft:item/dust_glowstone",
+			"name": "glowstone_dust",
 		},
 		{	
-			"type": "item",
-			"tile": 104,
-			"name": "redstone_dust"
+			"id": "minecraft:item/dust_redstone",
+			"name": "redstone_dust",
 		},
 		{	
-			"type": "terrain",
-			"tile": 512,
-			"name": "rail_golden_powered_emissive"
+			"id": "minecraft:block/rail_powered_active",
+			"name": "rail_golden_powered_emissive",
 		},
 		{	
-			"type": "terrain",
-			"tile": 392,
-			"name": "motion_sensor_on"
+			"id": "minecraft:block/motionsensor_active_front",
+			"name": "motion_sensor_on",
 		},
 		{	
-			"type": "terrain",
-			"tile": 513,
-			"name": "motion_sensor_emissive"
+			"id": "minecraft:block/motionsensor_overlay",
+			"name": "motion_sensor_emissive",
 		},
 		{	
-			"type": "item",
-			"tile": 46,
-			"name": "slimeball"
+			"id": "minecraft:item/slimeball",
+			"name": "slimeball",
 		},
 		{	
-			"type": "terrain",
-			"tile": 195,
-			"name": "redstone_torch_on"
+			"id": "minecraft:block/torch_redstone_active",
+			"name": "redstone_torch_on",
 		},
 		{	
-			"type": "terrain",
-			"tile": 20,
-			"name": "diamond_ore_stone"
+			"id": "minecraft:block/ore_diamond_stone",
+			"name": "diamond_ore_stone",
 		},
 		{	
-			"type": "terrain",
-			"tile": 52,
-			"name": "diamond_ore_basalt"
+			"id": "minecraft:block/ore_diamond_basalt",
+			"name": "diamond_ore_basalt",
 		},
 		{	
-			"type": "terrain",
-			"tile": 84,
-			"name": "diamond_ore_limestone"
+			"id": "minecraft:block/ore_diamond_limestone",
+			"name": "diamond_ore_limestone",
 		},
 		{	
-			"type": "terrain",
-			"tile": 116,
-			"name": "diamond_ore_granite"
+			"id": "minecraft:block/ore_diamond_granite",
+			"name": "diamond_ore_granite",
 		},
 		{	
-			"type": "terrain",
-			"tile": 320,
-			"name": "redstone_block"
+			"id": "minecraft:block/block_redstone",
+			"name": "redstone_block",
 		},
 		{	
-			"type": "terrain",
-			"tile": 291,
-			"name": "repeater_on"
+			"id": "minecraft:block/repeater_active_top",
+			"name": "repeater_on",
 		},
 		{	
-			"type": "terrain",
-			"tile": 786,
-			"name": "black_lamp"
+			"id": "minecraft:block/lamp_black_active",
+			"name": "black_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 947,
-			"name": "magenta_lamp"
+			"id": "minecraft:block/lamp_magenta_active",
+			"name": "magenta_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 851,
-			"name": "lime_lamp"
+			"id": "minecraft:block/lamp_lime_active",
+			"name": "lime_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 1010,
-			"name": "light_grey_lamp"
+			"id": "minecraft:block/lamp_silver_active",
+			"name": "light_grey_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 915,
-			"name": "light_blue_lamp"
+			"id": "minecraft:block/lamp_lightblue_active",
+			"name": "light_blue_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 979,
-			"name": "orange_lamp"
+			"id": "minecraft:block/lamp_orange_active",
+			"name": "orange_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 819,
-			"name": "pink_lamp"
+			"id": "minecraft:block/lamp_pink_active",
+			"name": "pink_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 946,
-			"name": "purple_lamp"
+			"id": "minecraft:block/lamp_purple_active",
+			"name": "purple_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 818,
-			"name": "red_lamp"
+			"id": "minecraft:block/lamp_red_active",
+			"name": "red_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 1011,
-			"name": "white_lamp"
+			"id": "minecraft:block/lamp_white_active",
+			"name": "white_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 883,
-			"name": "yellow_lamp"
+			"id": "minecraft:block/lamp_yellow_active",
+			"name": "yellow_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 787,
-			"name": "grey_lamp"
+			"id": "minecraft:block/lamp_gray_active",
+			"name": "grey_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 850,
-			"name": "green_lamp"
+			"id": "minecraft:block/lamp_green_active",
+			"name": "green_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 978,
-			"name": "cyan_lamp"
+			"id": "minecraft:block/lamp_cyan_active",
+			"name": "cyan_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 914,
-			"name": "blue_lamp"
+			"id": "minecraft:block/lamp_blue_active",
+			"name": "blue_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 882,
-			"name": "brown_lamp"
+			"id": "minecraft:block/lamp_brown_active",
+			"name": "brown_lamp",
 		},
 		{	
-			"type": "terrain",
-			"tile": 201,
-			"name": "glowstone"
+			"id": "minecraft:block/glowstone",
+			"name": "glowstone",
 		},
 		{	
-			"type": "item",
-			"tile": 204,
-			"name": "icecream_bucket"
+			"id": "minecraft:item/bucket_icecream",
+			"name": "icecream_bucket",
 		},
 		{	
-			"type": "item",
-			"tile": 197,
-			"name": "nether_coal"
+			"id": "minecraft:item/nethercoal",
+			"name": "nether_coal",
 		},
 		{	
-			"type": "item",
-			"tile": 293,
-			"name": "hand_cannon_on"
+			"id": "minecraft:item/handcannon_loaded",
+			"name": "hand_cannon_on",
 		},
 		{	
-			"type": "terrain",
-			"tile": 333,
-			"name": "firefly_jar_blue"
+			"id": "minecraft:block/lantern_firefly_blue",
+			"name": "firefly_jar_blue",
 		},
 		{	
-			"type": "terrain",
-			"tile": 366,
-			"name": "firefly_jar_red"
+			"id": "minecraft:block/lantern_firefly_red",
+			"name": "firefly_jar_red",
 		},
 		{	
-			"type": "terrain",
-			"tile": 334,
-			"name": "firefly_jar_orange"
+			"id": "minecraft:block/lantern_firefly_orange",
+			"name": "firefly_jar_orange",
 		},
 		{	
-			"type": "terrain",
-			"tile": 365,
+			"id": "minecraft:block/lantern_firefly_green",
 			"name": "firefly_jar_green"
 		}
 	]
