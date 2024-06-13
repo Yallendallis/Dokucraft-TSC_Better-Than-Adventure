@@ -1,0 +1,41 @@
+{
+	"replace": false,
+	"variants": {
+		"net.minecraft.core.entity.animal.EntityChicken": {
+			"numSkins": 8
+		},
+		"net.minecraft.core.entity.animal.EntityCow": {
+			"numSkins": 4
+		},
+		"net.minecraft.core.entity.animal.EntityPig": {
+			"numSkins": 11
+		},
+		"net.minecraft.core.entity.monster.EntitySkeleton": {
+			"numSkins": 13
+		},
+		"net.minecraft.core.entity.monster.EntityCreeper": {
+			"numSkins": 15
+		},
+		"net.minecraft.core.entity.monster.EntitySlime": {
+			"numSkins": 15
+		},
+		"net.minecraft.core.entity.monster.EntitySnowman": {
+			"numSkins": 5
+		},
+		"net.minecraft.core.entity.monster.EntitySpider": {
+			"numSkins": 4
+		},
+		"net.minecraft.core.entity.animal.EntitySquid": {
+			"numSkins": 6
+		},
+		"net.minecraft.core.entity.animal.EntityWolf": {
+			"numSkins": 5
+		},
+		"net.minecraft.core.entity.monster.EntityZombie": {
+			"numSkins": 20
+		},
+		"net.minecraft.core.entity.monster.EntityArmoredZombie": {
+			"numSkins": 6
+		}
+	}
+}
