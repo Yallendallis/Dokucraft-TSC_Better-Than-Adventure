@@ -31,7 +31,7 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1
         with:
-          tag: "v${{ github.run_number }}"
+          tag: "v${{ github.ref_name }}${{ github.run_number }}"
           name: "Dokucraft TSC BTA 7.2 Pre1 High"
           body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
           draft: false
