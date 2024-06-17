@@ -1,9 +1,9 @@
-name: Create High 7.2 Release
+name: Create Light 7.2 Release
 
 on:
   push:
     branches:
-      - 7.2-Pre-1-High
+      - 7.2-Pre-1-Light
 
 jobs:
   build:
@@ -25,16 +25,16 @@ jobs:
       - name: Zip files
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r Dokucraft-TSC-High_BTA-7.2-Pre1.zip .
+          args: zip -qq -r Dokucraft-TSC-Light_BTA-7.2-Pre1.zip .
 
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1
         with:
           tag: "v${{ github.run_number }}"
-          name: "Dokucraft TSC BTA 7.2 Pre1 High"
+          name: "Dokucraft TSC BTA 7.1 Pre1 Light"
           body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: Dokucraft-TSC-High_BTA-7.2-Pre1.zip
+          artifacts: Dokucraft-TSC-Light_BTA-7.2-Pre1.zip
