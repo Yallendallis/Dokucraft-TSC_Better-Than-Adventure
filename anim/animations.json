@@ -85,7 +85,7 @@
 			"name": "redstone_dust",
 		},
 		{	
-			"id": "minecraft:block/rail_powered_active",
+			"id": "minecraft:block/rail_powered_overlay",
 			"name": "rail_golden_powered_emissive",
 		},
 		{	
