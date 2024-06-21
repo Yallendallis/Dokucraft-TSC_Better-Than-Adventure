@@ -23,7 +23,7 @@
 			"numSkins": 5
 		},
 		"net.minecraft.core.entity.monster.EntitySpider": {
-			"numSkins": 4
+			"numSkins": 6
 		},
 		"net.minecraft.core.entity.animal.EntitySquid": {
 			"numSkins": 6
