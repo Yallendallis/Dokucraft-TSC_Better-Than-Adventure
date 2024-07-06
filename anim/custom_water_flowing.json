@@ -1,5 +1,5 @@
 {
-    	"frametime": 1,
+    	"frametime": 2,
 	"random": false,
-	"interpolate:": false
+	"interpolate": false
 }
