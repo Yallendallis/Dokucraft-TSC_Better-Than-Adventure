@@ -222,7 +222,10 @@
 		},
 		{	
 			"id": "minecraft:block/lantern_firefly_green",
-			"name": "firefly_jar_green"
+			"name": "firefly_jar_green",
+		},
+		{	"id": "minecraft:particle/fire",
+			"name": "fire"
 		}
 	]
 }
