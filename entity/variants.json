@@ -5,7 +5,7 @@
 			"numSkins": 8
 		},
 		"net.minecraft.core.entity.animal.EntityCow": {
-			"numSkins": 4
+			"numSkins": 5
 		},
 		"net.minecraft.core.entity.animal.EntityPig": {
 			"numSkins": 11
