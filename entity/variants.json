@@ -35,7 +35,7 @@
 			"numSkins": 20
 		},
 		"net.minecraft.core.entity.monster.EntityArmoredZombie": {
-			"numSkins": 6
+			"numSkins": 7
 		}
 	}
 }
