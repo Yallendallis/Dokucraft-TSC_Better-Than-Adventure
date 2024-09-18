@@ -32,7 +32,7 @@ jobs:
       - name: List zip files for verification
         run: ls -l *.zip
 
-      - name: Create Release
+      - name: Upload Zips as Release Assets
         id: create_release
         uses: ncipollo/release-action@v1
         with:
@@ -42,5 +42,4 @@ jobs:
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: |
-            $(ls *.zip | tr '\n' ',')
+          files: "*.zip"
