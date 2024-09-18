@@ -22,11 +22,11 @@ jobs:
           find . -name '.git' -type d -exec rm -rf {} +
           rm -f README.md
 
-      - name: Zip each subdirectory
+      - name: Zip contents of each subdirectory
         run: |
           for dir in */ ; do
             dir_name=$(basename "$dir")
-            zip -r "${dir_name}.zip" "$dir" -x "*.git*" "*.github*"
+            cd "$dir" && zip -r "../${dir_name}.zip" ./* && cd ..
           done
 
       - name: List zip files for verification
