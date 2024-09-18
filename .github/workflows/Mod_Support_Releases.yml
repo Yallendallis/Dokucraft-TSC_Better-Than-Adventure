@@ -1,9 +1,9 @@
-name: Create High 7.2 Release
+name: Mod Support Releases
 
 on:
   push:
     branches:
-      - 7.2-Pre-1-High
+      - TSC-BTA-Mod-Support
 
 jobs:
   build:
@@ -22,19 +22,25 @@ jobs:
           find . -name '.git' -type d -exec rm -rf {} +
           rm -f README.md
 
-      - name: Zip files
-        uses: montudor/action-zip@v1
-        with:
-          args: zip -qq -r Dokucraft-TSC-High_BTA-7.2.zip .
+      - name: Zip each subdirectory
+        run: |
+          for dir in */ ; do
+            dir_name=$(basename "$dir")
+            zip -r "${dir_name}.zip" "$dir" -x "*.git*" "*.github*"
+          done
+
+      - name: List zip files for verification
+        run: ls -l *.zip
 
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1
         with:
           tag: "v${{ github.ref_name }}${{ github.run_number }}"
-          name: "Dokucraft TSC BTA 7.2 High"
-          body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
+          name: "Mod-Support-Release"
+          body: "Usage: Download any .zip under assets, place in the texturepacks folder, load after Dokucraft. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: Dokucraft-TSC-High_BTA-7.2.zip
+          artifacts: |
+            $(ls *.zip | tr '\n' ',')
