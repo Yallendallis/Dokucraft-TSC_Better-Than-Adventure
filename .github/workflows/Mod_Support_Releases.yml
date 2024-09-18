@@ -37,7 +37,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: "v${{ github.ref_name }}${{ github.run_number }}"
-          name: "Mod-Support-Release"
+          name: "Mod Support Release"
           body: "Usage: Download any .zip under assets, place in the texturepacks folder, load after Dokucraft. Update ${{ env.RELEASE_VERSION }}"
           draft: false
           prerelease: false
