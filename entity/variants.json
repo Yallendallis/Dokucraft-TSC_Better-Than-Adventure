@@ -2,7 +2,13 @@
 	"replace": false,
 	"variants": {
 		"net.minecraft.core.entity.animal.EntityChicken": {
-			"numSkins": 8
+			"numSkins": 10
+		},
+		"net.minecraft.core.entity.animal.EntityGhast": {
+			"numSkins": 2
+		},
+		"net.minecraft.core.entity.animal.EntityPigZombie": {
+			"numSkins": 3
 		},
 		"net.minecraft.core.entity.animal.EntityCow": {
 			"numSkins": 6
