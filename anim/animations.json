@@ -227,6 +227,10 @@
 		{
 			"id": "minecraft:particle/fire",
 			"name":"flame"
+		},
+		{
+			"id": "minecraft:particle/firefly",
+			"name":"firefly"
 		}
 	]
 }
