@@ -2,8 +2,8 @@
     "description": {
         "name": "Dokucraft The Saga Continues",
         "line1": "Light",
-        "line2": "BTA 7.2",
-        "packVersion": "7.2",
-        "format": 1
+        "line2": "BTA 7.3",
+        "packVersion": "7.3 Pre-4",
+        "format": 3
     }
 }

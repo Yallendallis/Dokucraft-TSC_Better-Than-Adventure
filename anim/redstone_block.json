@@ -1,8 +1,0 @@
-{
-    	"frametime": 10,
-	"random": false,
-	"frames": [
-		0, 1,
-	],
-	"interpolate": true
-}
