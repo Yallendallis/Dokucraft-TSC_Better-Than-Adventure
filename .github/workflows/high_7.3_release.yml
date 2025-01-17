@@ -1,0 +1,40 @@
+name: Create High 7.3 Release
+
+on:
+  push:
+    branches:
+      - 7.3-High
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      RELEASE_VERSION: ${{ github.run_number }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Exclude unwanted files
+        run: |
+          find . -name '.github' -type d -exec rm -rf {} +
+          find . -name '.git' -type d -exec rm -rf {} +
+          rm -f README.md
+
+      - name: Zip files
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r Dokucraft-TSC-High_BTA-7.3.zip .
+
+      - name: Create Release
+        id: create_release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: "v${{ github.ref_name }}${{ github.run_number }}"
+          name: "Dokucraft TSC BTA 7.3 High"
+          body: "Usage: Download the .zip under assets, place in the texturepacks folder. Update ${{ env.RELEASE_VERSION }}"
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: Dokucraft-TSC-High_BTA-7.3.zip
