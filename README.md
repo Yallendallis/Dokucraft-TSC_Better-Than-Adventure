@@ -1,2 +1,2 @@
-Dokucraft The Saga Continues for Better than adventure 7.2 - High
+Dokucraft The Saga Continues for Better than adventure 7.3 - Light
  
