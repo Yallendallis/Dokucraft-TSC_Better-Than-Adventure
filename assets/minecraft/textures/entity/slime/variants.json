@@ -1,0 +1,56 @@
+{
+  "skins": [
+		{
+      "texture": "0",
+	  "weight": 2
+    },
+		{
+      "texture": "1",
+	  "weight": 2
+    },
+	    {
+      "texture": "2"
+    },
+	    {
+      "texture": "3",
+	  "weight": 1.5
+    },
+	    {
+      "texture": "4",
+	  "weight": 2
+    },
+	    {
+      "texture": "5",
+	  "weight": 1.5
+    },
+	    {
+      "texture": "6",
+	  "weight": 1.5
+    },
+	    {
+      "texture": "7"
+    },
+	    {
+      "texture": "8"
+	  "weight": 2
+    },
+	    {
+      "texture": "9"
+    },
+	    {
+      "texture": "10"
+    },
+	    {
+      "texture": "11"
+    },
+	    {
+      "texture": "12"
+    },
+	    {
+      "texture": "13"
+    },
+		{
+      "texture": "14"
+    }
+  ]
+}

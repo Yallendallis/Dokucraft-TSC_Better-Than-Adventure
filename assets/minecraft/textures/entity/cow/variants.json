@@ -1,0 +1,23 @@
+{
+  "skins": [
+		{
+      "texture": "0"
+    },
+		{
+      "texture": "1"
+    },
+	    {
+      "texture": "2",
+	  "weight": 0.2
+    },
+	    {
+      "texture": "3"
+    },
+	    {
+      "texture": "4"
+    },
+	    {
+      "texture": "5"
+	}
+  ]
+}
