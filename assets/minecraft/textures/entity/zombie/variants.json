@@ -1,3 +1,101 @@
 {
-    "skins": 21
+  "skins": [
+		{
+      "texture": "0",
+	  "weight": 0.5
+    },
+		{
+      "texture": "1",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "2",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "3",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "4",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "5",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "6",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "7",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "8",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "9",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "10",
+	  "weight": 0.5
+    },
+	    {
+      "texture": "11"
+    },
+	    {
+      "texture": "12"
+    },
+	    {
+      "texture": "13"
+	  "weight": 1.5
+    },
+		{
+      "texture": "14"
+    },
+		{
+      "texture": "15"
+	  "weight": 1.5
+    },
+		{
+      "texture": "16"
+    },
+		{
+      "texture": "17"
+    },
+		{
+      "texture": "18"
+    },
+		{
+      "texture": "19"
+    },
+		{
+      "texture": "20"
+    },
+		{
+      "texture": "21"
+    },
+		{
+      "texture": "22"
+    },
+		{
+      "texture": "23"
+    },
+		{
+      "texture": "24"
+    },
+		{
+      "texture": "25"
+    },
+		{
+      "texture": "26"
+    },
+		{
+      "texture": "27"
+    }
+  ]
 }
