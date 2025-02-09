@@ -1,17 +1,30 @@
 {
-    "animation": {
-        "frametime": 20,
-        "random": false,
-        "frames": [
-            1,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            1
-        ],
-        "interpolate": true
-    }
+  "animation": {
+    "frametime": 20,
+    "frames": [
+      {
+        "index": 0,
+        "time": 10
+      },
+      1,
+      0,
+      {
+        "index": 1,
+        "time": 10
+      },
+      {
+        "index": 0,
+        "time": 8
+      },
+      1,
+      {
+        "index": 0,
+        "time": 10
+      },
+      1,
+      0,
+      1
+    ],
+    "interpolate": true
+  }
 }
