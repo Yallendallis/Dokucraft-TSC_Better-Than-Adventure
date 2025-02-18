@@ -25,7 +25,7 @@ jobs:
       - name: Zip files
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r AddOns-Doku-TSC-7.2.zip .
+          args: zip -qq -r AddOns-Doku-TSC-7.3.zip .
 
       - name: Create Release
         id: create_release
@@ -37,4 +37,4 @@ jobs:
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: AddOns-Doku-TSC-7.2.zip
+          artifacts: AddOns-Doku-TSC-7.3.zip
